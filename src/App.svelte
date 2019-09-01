@@ -1,12 +1,11 @@
 <script>
-  import Button from "./Button.svelte";
+  import TaskList from "./TaskList.svelte";
 </script>
 
 <style lang="text/postcss">
 
 </style>
 
-<main>
-  <h1 class="text-3xl text-red-600">Hello !</h1>
-  <Button />
+<main class="container mx-auto">
+  <TaskList />
 </main>
